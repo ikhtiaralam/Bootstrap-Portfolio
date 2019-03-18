@@ -56,17 +56,12 @@
     width: 50%
   }
 
-  .footer {
+  #sticky-footer {
+    flex-shrink: none;
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#666666;
-    color: #777777;
-    text-align: center;
-    margin-top: 40px;
-    border-top: 8px solid #4aaaa5;
-  }
+    }
   
 </style>
 
@@ -152,8 +147,8 @@
             </div>
         </div>
     </div>
-    <div class="footer"> 
-      <p class="footer"></p>
-  </div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; </small>
 </body>
 </html>
